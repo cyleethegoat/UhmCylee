@@ -15,26 +15,26 @@ function getNextMenuDesign() {
   const designs = [
     {
       header: "🧸❤️👸 ⟪ *{botname}* ⟫ 👸❤️🧸\n",
-      lineSeparator: "✦ ",
+      lineSeparator: "メ ",
       commandPrefix: "➔ ",
       footer: "✦✦✦✦✦✦✦✦✦✦",
-      emoji: "🌟",
+      emoji: "🧸",
       categorySeparator: "✦✧✦✧✦✧✦\n",
     },
     {
       header: "🧸❤️👸 ⟪ *{botname}* ⟫ 🧸❤️👸\n",
-      lineSeparator: "⬤ ",
+      lineSeparator: "メ ",
       commandPrefix: "⇒ ",
       footer: "⬤⬤⬤⬤⬤⬤⬤",
-      emoji: "🔘",
+      emoji: "🧸",
       categorySeparator: "⬤⬛⬤⬛⬤⬛⬤\n",
     },
     {
       header: "🧸❤️👸 ⟪ *{botname}* ⟫ 👸❤️🧸\n",
-      lineSeparator: "✰ ",
-      commandPrefix: "✦ ",
+      lineSeparator: "メ",
+      commandPrefix: "➔",
       footer: "✰✰✰✰✰✰✰",
-      emoji: "✨",
+      emoji: "🧸",
       categorySeparator: "✰☽✰☽✰☽✰\n",
     }
   ];
@@ -77,7 +77,7 @@ astro_patch.smd({
     const minutes = currentTime.getMinutes().toString().padStart(2, '0');
     const currentDate = currentTime.toLocaleDateString();
     const currentTimeString = `${hours}:${minutes}`;
-    const location = "Lagos, Nigeria"; // Replace with actual location
+    const location = "Johannesburg, South Africa"; // Replace with actual location
     const temperature = await getTemperature(); // Fetch dynamic temperature
 
     // Choose the next menu design
@@ -101,7 +101,7 @@ astro_patch.smd({
 
     let menuContent = `${header}`;
     menuContent += `${lineSeparator}🌡️ *Temperature:* ${temperature}°C\n`;
-    menuContent += `${lineSeparator}👸 *Owner:* ${Config.ownername}\n`;
+    menuContent += `${lineSeparator}🧸 *Owner:* ${Config.ownername}\n`;
     menuContent += `${lineSeparator}🌍 *Location:* ${location}\n`;
     menuContent += `${lineSeparator}📆 *Date:* ${currentDate}\n`;
     menuContent += `${lineSeparator}🕰️ *Time:* ${currentTimeString}\n`;
@@ -119,7 +119,7 @@ astro_patch.smd({
     }
 
     menuContent += `\n${footer}\n\n${design.emoji} *${Config.botname}* - Your companion\n`;
-    menuContent += `©2024 *JUPITERBOLD05*\n`;
+    menuContent += `©2024 *CYLEETECH*\n`;
     menuContent += `${readmore}`;
 
     // Box the menu content
@@ -133,7 +133,7 @@ astro_patch.smd({
         'isForwarded': true,
         'externalAdReply': {
           'title': 'Pʟᴀᴛɪɴᴜᴍ-V1',
-          'sourceUrl': 'https://whatsapp.com/channel/0029Vas9N7MBA1f0yw8dZ515'
+          'sourceUrl': 'https://whatsapp.com/channel/0029VavkrOID38CSgcyfbM07'
         }
       },
       'ephemeralExpiration': 3000

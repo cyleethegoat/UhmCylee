@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Jupiterbold05/Platinum-V1";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/gvdQSvi.jpeg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/40zoni.jpg";
 global.devs = "2348084644182";
 global.sudo = process.env.SUDO || "2349071978357";
 global.owner = process.env.OWNER_NUMBER || "2348084644182";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/gvdQSvi.jpeg";
+global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/40zoni.jpg";
 global.waPresence = process.env.WAPRESENCE || "unavailable";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍™",
   author: process.env.PACK_AUTHER || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
   packname: process.env.PACK_NAME || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  botname: process.env.BOT_NAME || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  ownername: process.env.OWNER_NAME || "ᴀʙᴏᴠᴇ ᴀʟʟ ☠️👑🌍",
+  botname: process.env.BOT_NAME || "QUEEN_KYLIE-V2",
+  ownername: process.env.OWNER_NAME || "Cylee",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",

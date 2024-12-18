@@ -186,7 +186,7 @@ astro_patch.cmd(
 smd(
   {
     pattern: "ping",
-    react: "❄️",
+    react: "⚡",
     desc: "Ping response with speed.",
     category: "misc",
     filename: __filename,
@@ -199,7 +199,7 @@ smd(
     await new Promise((r) => setTimeout(r, 1500));
 
     var speed = new Date().getTime() - startTime;
-    await message.send(`Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍: ${speed} ms ⚡`, { edit: key });
+    await message.send(`QUEEN_KYLIE-V2 👸❤️🧸: ${speed} ms ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
